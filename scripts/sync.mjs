@@ -6,99 +6,98 @@ if (!TOKEN) { console.error('❌ HUBSPOT_TOKEN manquant'); process.exit(1); }
 
 const HEADERS = { 'Authorization': `Bearer ${TOKEN}`, 'Content-Type': 'application/json' };
 
-// Team owner IDs (confirmed)
 const OWNERS = {
   '75453551':   'lilian',
   '650299108':  'mathieu',
   '1722214870': 'clara',
 };
 const OWNER_IDS = Object.keys(OWNERS);
-
-// Pipeline OPS_RENEW_V3
 const PIPELINE_ID = '3795270843';
 
-// ─── Date helpers ─────────────────────────────────────────────────
+const STAGES = {
+  '397654742': 'A renouveler',
+  '397654743': 'Renouvellement en cours',
+  '399292111': 'Engagement à payer',
+  '399311590': 'Call Teamlead CS',
+  '397654744': 'Renouvelé',
+  '397777379': 'Churn',
+};
+
 function getLastWeek() {
   const now = new Date();
-  const day = now.getDay(); // 0=sun
+  const day = now.getDay();
   const diffToLastSun = day === 0 ? 7 : day;
-  const lastSun = new Date(now); lastSun.setDate(now.getDate() - diffToLastSun); lastSun.setHours(23,59,59,999);
-  const lastMon = new Date(lastSun); lastMon.setDate(lastSun.getDate() - 6); lastMon.setHours(0,0,0,0);
-  return { start: lastMon.getTime(), end: lastSun.getTime(), startISO: lastMon.toISOString().split('T')[0], endISO: lastSun.toISOString().split('T')[0] };
+  const lastSun = new Date(now);
+  lastSun.setDate(now.getDate() - diffToLastSun);
+  lastSun.setHours(23, 59, 59, 999);
+  const lastMon = new Date(lastSun);
+  lastMon.setDate(lastSun.getDate() - 6);
+  lastMon.setHours(0, 0, 0, 0);
+  return { start: lastMon.getTime(), end: lastSun.getTime() };
 }
 
 function getThisMonth() {
   const now = new Date();
   const start = new Date(now.getFullYear(), now.getMonth(), 1);
-  return { start: start.getTime(), end: now.getTime(), startISO: start.toISOString().split('T')[0], endISO: now.toISOString().split('T')[0] };
+  return { start: start.getTime(), end: now.getTime() };
 }
 
-// ─── API helpers ──────────────────────────────────────────────────
 async function search(objectType, filters, properties, limit = 200) {
   const res = await fetch(`${BASE}/crm/v3/objects/${objectType}/search`, {
     method: 'POST', headers: HEADERS,
     body: JSON.stringify({ filterGroups: [{ filters }], properties, limit }),
   });
-  if (!res.ok) { console.warn(`⚠ ${objectType} (${res.status})`); return []; }
+  if (!res.ok) { console.warn(`⚠ ${objectType} (${res.status}): ${await res.text()}`); return []; }
   return (await res.json()).results || [];
 }
 
-// ─── Fetchers ─────────────────────────────────────────────────────
-
-// CALLS — outbound, semaine ou mois
 async function fetchCalls(start, end) {
   return search('calls', [
-    { propertyName: 'hs_createdate',    operator: 'GTE', value: String(start) },
-    { propertyName: 'hs_createdate',    operator: 'LTE', value: String(end) },
-    { propertyName: 'hs_call_direction',operator: 'EQ',  value: 'OUTBOUND' },
-    { propertyName: 'hubspot_owner_id', operator: 'IN',  values: OWNER_IDS },
+    { propertyName: 'hs_createdate',     operator: 'GTE', value: String(start) },
+    { propertyName: 'hs_createdate',     operator: 'LTE', value: String(end) },
+    { propertyName: 'hs_call_direction', operator: 'EQ',  value: 'OUTBOUND' },
+    { propertyName: 'hubspot_owner_id',  operator: 'IN',  values: OWNER_IDS },
   ], ['hubspot_owner_id', 'hs_createdate']);
 }
 
-// MEETINGS — posés par l'équipe renew
-async function fetchMeetings(startISO, endISO) {
+async function fetchMeetings(start, end) {
   return search('meetings', [
-    { propertyName: 'hs_createdate',    operator: 'GTE', value: startISO },
-    { propertyName: 'hs_createdate',    operator: 'LTE', value: endISO },
+    { propertyName: 'hs_createdate',    operator: 'GTE', value: String(start) },
+    { propertyName: 'hs_createdate',    operator: 'LTE', value: String(end) },
     { propertyName: 'hubspot_owner_id', operator: 'IN',  values: OWNER_IDS },
   ], ['hubspot_owner_id', 'hs_createdate', 'hs_meeting_title']);
 }
 
-// TICKETS — clôturés par l'équipe
-async function fetchTickets(startISO, endISO) {
+async function fetchTickets(start, end) {
   return search('tickets', [
-    { propertyName: 'closed_date',      operator: 'GTE', value: startISO },
-    { propertyName: 'closed_date',      operator: 'LTE', value: endISO },
+    { propertyName: 'closed_date',      operator: 'GTE', value: String(start) },
+    { propertyName: 'closed_date',      operator: 'LTE', value: String(end) },
     { propertyName: 'hubspot_owner_id', operator: 'IN',  values: OWNER_IDS },
   ], ['hubspot_owner_id', 'subject', 'closed_date']);
 }
 
-// CHURN REASON — contacts avec churn_date dans la période
-async function fetchChurnReason(startISO, endISO) {
+async function fetchChurnReason(start, end) {
   return search('contacts', [
-    { propertyName: 'churn_date',   operator: 'GTE', value: startISO },
-    { propertyName: 'churn_date',   operator: 'LTE', value: endISO },
+    { propertyName: 'churn_date',   operator: 'GTE', value: String(start) },
+    { propertyName: 'churn_date',   operator: 'LTE', value: String(end) },
     { propertyName: 'churn_reason', operator: 'HAS_PROPERTY' },
   ], ['hubspot_owner_id', 'churn_date', 'churn_reason', 'firstname', 'lastname']).catch(() => []);
 }
 
-// CHURN NO SHOW
-async function fetchChurnNoShow(startISO, endISO) {
+async function fetchChurnNoShow(start, end) {
   return search('contacts', [
-    { propertyName: 'churn_date',   operator: 'GTE', value: startISO },
-    { propertyName: 'churn_date',   operator: 'LTE', value: endISO },
+    { propertyName: 'churn_date',   operator: 'GTE', value: String(start) },
+    { propertyName: 'churn_date',   operator: 'LTE', value: String(end) },
     { propertyName: 'churn_reason', operator: 'EQ',  value: 'HP - Injoignable' },
-  ], ['hubspot_owner_id', 'churn_reason', 'firstname', 'lastname']).catch(() => []);
+  ], ['hubspot_owner_id', 'churn_reason']).catch(() => []);
 }
 
-// PIPELINE DEALS — état actuel
 async function fetchDeals() {
   return search('deals', [
     { propertyName: 'pipeline', operator: 'EQ', value: PIPELINE_ID },
   ], ['dealname', 'dealstage', 'hubspot_owner_id', 'amount', 'closedate']).catch(() => []);
 }
 
-// ─── Aggregation helpers ──────────────────────────────────────────
 function byMember(items, prop = 'hubspot_owner_id') {
   const r = { lilian: 0, mathieu: 0, clara: 0, total: 0 };
   for (const item of items) {
@@ -139,9 +138,9 @@ function callsByDay(calls, start, end) {
   return days;
 }
 
-function buildPeriodStats(calls, meetings, tickets, churnReason, churnNoShow, periodStart, periodEnd) {
+function buildPeriod(calls, meetings, tickets, churnReason, churnNoShow, start, end) {
   return {
-    calls:       { ...byMember(calls),       byDay: callsByDay(calls, periodStart, periodEnd) },
+    calls:       { ...byMember(calls),       byDay: callsByDay(calls, start, end) },
     meetings:    byMember(meetings),
     tickets:     byMember(tickets),
     churnReason: { ...byMember(churnReason), reasons: churnReasons(churnReason) },
@@ -149,17 +148,13 @@ function buildPeriodStats(calls, meetings, tickets, churnReason, churnNoShow, pe
   };
 }
 
-// ─── Main ─────────────────────────────────────────────────────────
 async function main() {
-  console.log('🚀 Sync HubSpot Dashboard Renew...');
-
+  console.log('🚀 Sync HubSpot...');
   const lw = getLastWeek();
   const tm = getThisMonth();
+  console.log(`S-1 : ${new Date(lw.start).toISOString().split('T')[0]} → ${new Date(lw.end).toISOString().split('T')[0]}`);
+  console.log(`Mois: ${new Date(tm.start).toISOString().split('T')[0]} → ${new Date(tm.end).toISOString().split('T')[0]}`);
 
-  console.log(`📅 S-1 : ${lw.startISO} → ${lw.endISO}`);
-  console.log(`📅 Mois: ${tm.startISO} → ${tm.endISO}`);
-
-  // Fetch all in parallel
   const [
     callsLW, callsTM,
     meetingsLW, meetingsTM,
@@ -170,40 +165,32 @@ async function main() {
   ] = await Promise.all([
     fetchCalls(lw.start, lw.end),
     fetchCalls(tm.start, tm.end),
-    fetchMeetings(lw.startISO, lw.endISO),
-    fetchMeetings(tm.startISO, tm.endISO),
-    fetchTickets(lw.startISO, lw.endISO),
-    fetchTickets(tm.startISO, tm.endISO),
-    fetchChurnReason(lw.startISO, lw.endISO),
-    fetchChurnReason(tm.startISO, tm.endISO),
-    fetchChurnNoShow(lw.startISO, lw.endISO),
-    fetchChurnNoShow(tm.startISO, tm.endISO),
+    fetchMeetings(lw.start, lw.end),
+    fetchMeetings(tm.start, tm.end),
+    fetchTickets(lw.start, lw.end),
+    fetchTickets(tm.start, tm.end),
+    fetchChurnReason(lw.start, lw.end),
+    fetchChurnReason(tm.start, tm.end),
+    fetchChurnNoShow(lw.start, lw.end),
+    fetchChurnNoShow(tm.start, tm.end),
     fetchDeals(),
   ]);
 
   console.log(`S-1  → calls:${callsLW.length} rdv:${meetingsLW.length} tickets:${ticketsLW.length} churn:${churnLW.length} noshow:${noShowLW.length}`);
   console.log(`Mois → calls:${callsTM.length} rdv:${meetingsTM.length} tickets:${ticketsTM.length} churn:${churnTM.length} noshow:${noShowTM.length}`);
-  console.log(`Deals pipeline: ${deals.length}`);
+  console.log(`Deals: ${deals.length}`);
 
-  // Pipeline deals by stage and member
-  const STAGES = {
-    '397654742': 'A renouveler',
-    '397654743': 'Renouvellement en cours',
-    '399292111': 'Engagement à payer',
-    '399311590': 'Call Teamlead CS',
-    '397654744': 'Renouvelé',
-    '397777379': 'Churn',
-  };
-
+  // Pipeline
   const pipeline = {
     total: deals.length,
     byMember: { lilian: 0, mathieu: 0, clara: 0 },
     byStage: {},
+    byStageAndMember: {},
     deals: deals.map(d => ({
       id: d.id,
       name: d.properties?.dealname || `Deal #${d.id}`,
       stage: d.properties?.dealstage || null,
-      stageLabel: STAGES[d.properties?.dealstage] || d.properties?.dealstage || '—',
+      stageLabel: STAGES[d.properties?.dealstage] || '—',
       amount: d.properties?.amount ? Number(d.properties.amount) : null,
       closedate: d.properties?.closedate || null,
       member: OWNERS[d.properties?.hubspot_owner_id] || null,
@@ -214,22 +201,24 @@ async function main() {
     if (deal.member) pipeline.byMember[deal.member]++;
     const s = deal.stageLabel;
     pipeline.byStage[s] = (pipeline.byStage[s] || 0) + 1;
+    if (!pipeline.byStageAndMember[s]) pipeline.byStageAndMember[s] = { lilian: 0, mathieu: 0, clara: 0 };
+    if (deal.member) pipeline.byStageAndMember[s][deal.member]++;
   }
 
   const output = {
     generatedAt: new Date().toISOString(),
     periods: {
-      lastWeek:  { label: 'Semaine dernière', start: lw.startISO, end: lw.endISO },
-      thisMonth: { label: 'Ce mois',          start: tm.startISO, end: tm.endISO },
+      lastWeek:  { start: new Date(lw.start).toISOString().split('T')[0], end: new Date(lw.end).toISOString().split('T')[0] },
+      thisMonth: { start: new Date(tm.start).toISOString().split('T')[0], end: new Date(tm.end).toISOString().split('T')[0] },
     },
-    lastWeek:  buildPeriodStats(callsLW,  meetingsLW,  ticketsLW,  churnLW,  noShowLW,  lw.start, lw.end),
-    thisMonth: buildPeriodStats(callsTM,  meetingsTM,  ticketsTM,  churnTM,  noShowTM,  tm.start, tm.end),
+    lastWeek:  buildPeriod(callsLW,  meetingsLW,  ticketsLW,  churnLW,  noShowLW,  lw.start, lw.end),
+    thisMonth: buildPeriod(callsTM,  meetingsTM,  ticketsTM,  churnTM,  noShowTM,  tm.start, tm.end),
     pipeline,
   };
 
   fs.mkdirSync('public', { recursive: true });
   fs.writeFileSync('public/data.json', JSON.stringify(output, null, 2));
-  console.log('✅ public/data.json généré !');
+  console.log('✅ Done!');
 }
 
 main().catch(err => { console.error('❌', err); process.exit(1); });
