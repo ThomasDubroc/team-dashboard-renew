@@ -1,0 +1,9 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f1117; --surface: #181c27; --surface2: #1e2333; --border: #2a3048;
+  --accent: #4f8ef7; --green: #34d399; --red: #f87171; --orange: #fb923c; --yellow: #fbbf24; --purple: #a78bfa;
+  --text: #e8ecf4; --text2: #8892aa; --text3: #5a6480;
+  --lilian: #a78bfa; --mathieu: #4f8ef7; --clara: #34d399;
+}
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 14px; }
+::-webkit-scrollbar { width: 5px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
