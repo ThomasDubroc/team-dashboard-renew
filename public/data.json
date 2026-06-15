@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-06-14T19:08:11.978Z",
+  "generatedAt": "2026-06-15T20:18:20.863Z",
   "periods": {
     "lastWeek": {
-      "start": "2026-06-01",
-      "end": "2026-06-07"
+      "start": "2026-06-08",
+      "end": "2026-06-14"
     },
     "thisMonth": {
       "start": "2026-06-01",
-      "end": "2026-06-14"
+      "end": "2026-06-15"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 38,
-      "mathieu": 29,
+      "lilian": 0,
+      "mathieu": 0,
       "clara": 0,
-      "total": 67,
+      "total": 0,
       "byDay": {
-        "lun. 1": {
+        "lun. 8": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mar. 2": {
+        "mar. 9": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mer. 3": {
+        "mer. 10": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "jeu. 4": {
+        "jeu. 11": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "ven. 5": {
+        "ven. 12": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "sam. 6": {
+        "sam. 13": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "dim. 7": {
+        "dim. 14": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
@@ -74,53 +74,33 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 3,
-      "mathieu": 4,
+      "lilian": 0,
+      "mathieu": 0,
       "clara": 3,
-      "total": 10,
+      "total": 3,
       "reasons": [
         {
-          "reason": "PRD - Cessation indivision / LMP",
-          "count": 4
-        },
-        {
-          "reason": "Trop cher",
-          "count": 3
-        },
-        {
-          "reason": "LMP Hors EEE/Suisse",
-          "count": 2
-        },
-        {
-          "reason": "No show - sans raison",
-          "count": 2
-        },
-        {
-          "reason": "Non géré - TVA",
+          "reason": "Problème d'accompagnement",
           "count": 2
         },
         {
           "reason": "Non géré - vente d'un bien",
-          "count": 2
-        },
-        {
-          "reason": "Non actif",
-          "count": 2
-        },
-        {
-          "reason": "Problème d'accompagnement",
           "count": 1
         },
         {
-          "reason": "Demande trop d'effort",
+          "reason": "Plusieurs activités",
           "count": 1
         },
         {
-          "reason": "Ne veut pas de reconduction tacite",
+          "reason": "Non géré - Démembrement",
           "count": 1
         },
         {
-          "reason": "Bien indissociable à la vente",
+          "reason": "Arrêt d'activité",
+          "count": 1
+        },
+        {
+          "reason": "Blocage INPI",
           "count": 1
         }
       ]
@@ -135,9 +115,9 @@
   "thisMonth": {
     "calls": {
       "lilian": 51,
-      "mathieu": 50,
-      "clara": 16,
-      "total": 117,
+      "mathieu": 55,
+      "clara": 24,
+      "total": 130,
       "byDay": {
         "lun. 1": {
           "total": 0,
@@ -222,14 +202,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "lun. 15": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
       "lilian": 21,
-      "mathieu": 30,
+      "mathieu": 32,
       "clara": 0,
-      "total": 51
+      "total": 53
     },
     "tickets": {
       "lilian": 0,
