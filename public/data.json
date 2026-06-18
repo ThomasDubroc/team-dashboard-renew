@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T17:41:03.408Z",
+  "generatedAt": "2026-06-18T18:12:10.080Z",
   "periods": {
     "lastWeek": {
       "start": "2026-06-08",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-06-01",
-      "end": "2026-06-17"
+      "end": "2026-06-18"
     }
   },
   "lastWeek": {
@@ -76,9 +76,34 @@
     "churnReason": {
       "lilian": 0,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "clara": 3,
+      "total": 3,
+      "reasons": [
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 2
+        },
+        {
+          "reason": "Non géré - vente d'un bien",
+          "count": 1
+        },
+        {
+          "reason": "Plusieurs activités",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Démembrement",
+          "count": 1
+        },
+        {
+          "reason": "Arrêt d'activité",
+          "count": 1
+        },
+        {
+          "reason": "Blocage INPI",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
@@ -90,9 +115,9 @@
   "thisMonth": {
     "calls": {
       "lilian": 51,
-      "mathieu": 62,
-      "clara": 31,
-      "total": 144,
+      "mathieu": 76,
+      "clara": 34,
+      "total": 161,
       "byDay": {
         "lun. 1": {
           "total": 0,
@@ -195,14 +220,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "jeu. 18": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
       "lilian": 21,
-      "mathieu": 39,
+      "mathieu": 43,
       "clara": 0,
-      "total": 60
+      "total": 64
     },
     "tickets": {
       "lilian": 0,
@@ -211,11 +242,84 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "lilian": 4,
+      "mathieu": 4,
+      "clara": 10,
+      "total": 18,
+      "reasons": [
+        {
+          "reason": "Non géré - vente d'un bien",
+          "count": 5
+        },
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 5
+        },
+        {
+          "reason": "PRD - Cessation indivision / LMP",
+          "count": 4
+        },
+        {
+          "reason": "Trop cher",
+          "count": 4
+        },
+        {
+          "reason": "LMP Hors EEE/Suisse",
+          "count": 3
+        },
+        {
+          "reason": "No show - sans raison",
+          "count": 2
+        },
+        {
+          "reason": "Non géré - TVA",
+          "count": 2
+        },
+        {
+          "reason": "Ne veut pas de reconduction tacite",
+          "count": 2
+        },
+        {
+          "reason": "Non actif",
+          "count": 2
+        },
+        {
+          "reason": "Trop d'erreurs",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Reprise de compta",
+          "count": 1
+        },
+        {
+          "reason": "Plusieurs activités",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Démembrement",
+          "count": 1
+        },
+        {
+          "reason": "Demande trop d'effort",
+          "count": 1
+        },
+        {
+          "reason": "Arrêt d'activité",
+          "count": 1
+        },
+        {
+          "reason": "Bien indissociable à la vente",
+          "count": 1
+        },
+        {
+          "reason": "Blocage INPI",
+          "count": 1
+        },
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
@@ -1919,10 +2023,10 @@
       {
         "id": "505329992900",
         "name": "Demande de résiliation - bion.jeremy26@gmail.com",
-        "stage": "5337224391",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 499,
-        "closedate": null,
+        "closedate": "2026-06-18T14:00:17.030Z",
         "member": "mathieu"
       },
       {
