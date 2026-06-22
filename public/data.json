@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-06-19T16:38:48.784Z",
+  "generatedAt": "2026-06-22T19:00:42.463Z",
   "periods": {
     "lastWeek": {
-      "start": "2026-06-08",
-      "end": "2026-06-14"
+      "start": "2026-06-15",
+      "end": "2026-06-21"
     },
     "thisMonth": {
       "start": "2026-06-01",
-      "end": "2026-06-19"
+      "end": "2026-06-22"
     }
   },
   "lastWeek": {
     "calls": {
       "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "mathieu": 39,
+      "clara": 28,
+      "total": 67,
       "byDay": {
-        "lun. 8": {
+        "lun. 15": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mar. 9": {
+        "mar. 16": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mer. 10": {
+        "mer. 17": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "jeu. 11": {
+        "jeu. 18": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "ven. 12": {
+        "ven. 19": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "sam. 13": {
+        "sam. 20": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "dim. 14": {
+        "dim. 21": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
@@ -62,10 +62,10 @@
       }
     },
     "meetings": {
-      "lilian": 3,
-      "mathieu": 10,
+      "lilian": 0,
+      "mathieu": 17,
       "clara": 0,
-      "total": 13
+      "total": 17
     },
     "tickets": {
       "lilian": 0,
@@ -74,11 +74,44 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 0,
+      "lilian": 1,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "clara": 4,
+      "total": 5,
+      "reasons": [
+        {
+          "reason": "Non géré - vente d'un bien",
+          "count": 2
+        },
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 2
+        },
+        {
+          "reason": "LMP Hors EEE/Suisse",
+          "count": 1
+        },
+        {
+          "reason": "Trop d'erreurs",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Reprise de compta",
+          "count": 1
+        },
+        {
+          "reason": "Trop cher",
+          "count": 1
+        },
+        {
+          "reason": "Plusieurs activités",
+          "count": 1
+        },
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
@@ -90,9 +123,9 @@
   "thisMonth": {
     "calls": {
       "lilian": 51,
-      "mathieu": 89,
-      "clara": 44,
-      "total": 184,
+      "mathieu": 97,
+      "clara": 52,
+      "total": 200,
       "byDay": {
         "lun. 1": {
           "total": 0,
@@ -207,14 +240,32 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "sam. 20": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "dim. 21": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "lun. 22": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 21,
-      "mathieu": 47,
+      "lilian": 0,
+      "mathieu": 0,
       "clara": 0,
-      "total": 68
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -225,20 +276,20 @@
     "churnReason": {
       "lilian": 4,
       "mathieu": 4,
-      "clara": 12,
-      "total": 20,
+      "clara": 15,
+      "total": 23,
       "reasons": [
         {
-          "reason": "Problème d'accompagnement",
-          "count": 6
-        },
-        {
           "reason": "Non géré - vente d'un bien",
-          "count": 5
+          "count": 7
         },
         {
           "reason": "PRD - Cessation indivision / LMP",
-          "count": 4
+          "count": 6
+        },
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 6
         },
         {
           "reason": "Trop cher",
@@ -246,6 +297,10 @@
         },
         {
           "reason": "LMP Hors EEE/Suisse",
+          "count": 3
+        },
+        {
+          "reason": "Plusieurs activités",
           "count": 3
         },
         {
@@ -262,10 +317,6 @@
         },
         {
           "reason": "Non actif",
-          "count": 2
-        },
-        {
-          "reason": "Plusieurs activités",
           "count": 2
         },
         {
