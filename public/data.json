@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:13:12.121Z",
+  "generatedAt": "2026-06-25T10:10:21.502Z",
   "periods": {
     "lastWeek": {
       "start": "2026-06-15",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-06-01",
-      "end": "2026-06-24"
+      "end": "2026-06-25"
     }
   },
   "lastWeek": {
@@ -74,11 +74,44 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 0,
+      "lilian": 1,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "clara": 4,
+      "total": 5,
+      "reasons": [
+        {
+          "reason": "Non géré - vente d'un bien",
+          "count": 2
+        },
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 2
+        },
+        {
+          "reason": "LMP Hors EEE/Suisse",
+          "count": 1
+        },
+        {
+          "reason": "Trop d'erreurs",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Reprise de compta",
+          "count": 1
+        },
+        {
+          "reason": "Trop cher",
+          "count": 1
+        },
+        {
+          "reason": "Plusieurs activités",
+          "count": 1
+        },
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
@@ -89,10 +122,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "lilian": 51,
+      "mathieu": 97,
+      "clara": 52,
+      "total": 200,
       "byDay": {
         "lun. 1": {
           "total": 0,
@@ -237,14 +270,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "jeu. 25": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 21,
-      "mathieu": 51,
-      "clara": 4,
-      "total": 76
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -253,11 +292,84 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "lilian": 4,
+      "mathieu": 5,
+      "clara": 17,
+      "total": 26,
+      "reasons": [
+        {
+          "reason": "Non géré - vente d'un bien",
+          "count": 7
+        },
+        {
+          "reason": "PRD - Cessation indivision / LMP",
+          "count": 6
+        },
+        {
+          "reason": "Problème d'accompagnement",
+          "count": 6
+        },
+        {
+          "reason": "Trop cher",
+          "count": 5
+        },
+        {
+          "reason": "LMP Hors EEE/Suisse",
+          "count": 3
+        },
+        {
+          "reason": "Non géré - TVA",
+          "count": 3
+        },
+        {
+          "reason": "Plusieurs activités",
+          "count": 3
+        },
+        {
+          "reason": "No show - sans raison",
+          "count": 2
+        },
+        {
+          "reason": "Ne veut pas de reconduction tacite",
+          "count": 2
+        },
+        {
+          "reason": "Non actif",
+          "count": 2
+        },
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 2
+        },
+        {
+          "reason": "Trop d'erreurs",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Reprise de compta",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Démembrement",
+          "count": 1
+        },
+        {
+          "reason": "Demande trop d'effort",
+          "count": 1
+        },
+        {
+          "reason": "Arrêt d'activité",
+          "count": 1
+        },
+        {
+          "reason": "Bien indissociable à la vente",
+          "count": 1
+        },
+        {
+          "reason": "Blocage INPI",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
@@ -270,8 +382,8 @@
     "total": 200,
     "byMember": {
       "lilian": 17,
-      "mathieu": 92,
-      "clara": 91
+      "mathieu": 91,
+      "clara": 92
     },
     "byStage": {
       "—": 200
@@ -279,8 +391,8 @@
     "byStageAndMember": {
       "—": {
         "lilian": 17,
-        "mathieu": 92,
-        "clara": 91
+        "mathieu": 91,
+        "clara": 92
       }
     },
     "deals": [
@@ -2028,7 +2140,7 @@
         "stageLabel": "—",
         "amount": 499,
         "closedate": null,
-        "member": "mathieu"
+        "member": "clara"
       },
       {
         "id": "505618990285",
