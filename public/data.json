@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T11:52:23.526Z",
+  "generatedAt": "2026-06-30T10:23:47.859Z",
   "periods": {
     "lastWeek": {
       "start": "2026-06-22",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-06-01",
-      "end": "2026-06-29"
+      "end": "2026-06-30"
     }
   },
   "lastWeek": {
@@ -63,9 +63,9 @@
     },
     "meetings": {
       "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0
+      "mathieu": 10,
+      "clara": 7,
+      "total": 17
     },
     "tickets": {
       "lilian": 0,
@@ -75,35 +75,10 @@
     },
     "churnReason": {
       "lilian": 0,
-      "mathieu": 1,
-      "clara": 7,
-      "total": 8,
-      "reasons": [
-        {
-          "reason": "Trop cher",
-          "count": 3
-        },
-        {
-          "reason": "PRD - Cessation indivision / LMP",
-          "count": 2
-        },
-        {
-          "reason": "Non géré - vente d'un bien",
-          "count": 2
-        },
-        {
-          "reason": "Non géré - TVA",
-          "count": 1
-        },
-        {
-          "reason": "Plusieurs activités",
-          "count": 1
-        },
-        {
-          "reason": "Manque de fonctionnalité",
-          "count": 1
-        }
-      ]
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
+      "reasons": []
     },
     "churnNoShow": {
       "lilian": 0,
@@ -292,14 +267,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "mar. 30": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 21,
-      "mathieu": 57,
-      "clara": 7,
-      "total": 85
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -308,84 +289,11 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 4,
-      "mathieu": 5,
-      "clara": 19,
-      "total": 28,
-      "reasons": [
-        {
-          "reason": "Non géré - vente d'un bien",
-          "count": 7
-        },
-        {
-          "reason": "Trop cher",
-          "count": 7
-        },
-        {
-          "reason": "PRD - Cessation indivision / LMP",
-          "count": 6
-        },
-        {
-          "reason": "Problème d'accompagnement",
-          "count": 6
-        },
-        {
-          "reason": "LMP Hors EEE/Suisse",
-          "count": 3
-        },
-        {
-          "reason": "Non géré - TVA",
-          "count": 3
-        },
-        {
-          "reason": "Plusieurs activités",
-          "count": 3
-        },
-        {
-          "reason": "No show - sans raison",
-          "count": 2
-        },
-        {
-          "reason": "Ne veut pas de reconduction tacite",
-          "count": 2
-        },
-        {
-          "reason": "Non actif",
-          "count": 2
-        },
-        {
-          "reason": "Manque de fonctionnalité",
-          "count": 2
-        },
-        {
-          "reason": "Trop d'erreurs",
-          "count": 1
-        },
-        {
-          "reason": "Non géré - Reprise de compta",
-          "count": 1
-        },
-        {
-          "reason": "Non géré - Démembrement",
-          "count": 1
-        },
-        {
-          "reason": "Demande trop d'effort",
-          "count": 1
-        },
-        {
-          "reason": "Arrêt d'activité",
-          "count": 1
-        },
-        {
-          "reason": "Bien indissociable à la vente",
-          "count": 1
-        },
-        {
-          "reason": "Blocage INPI",
-          "count": 1
-        }
-      ]
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
+      "reasons": []
     },
     "churnNoShow": {
       "lilian": 0,
