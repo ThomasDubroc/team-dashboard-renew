@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T09:51:23.600Z",
+  "generatedAt": "2026-07-03T09:48:49.124Z",
   "periods": {
     "lastWeek": {
       "start": "2026-06-22",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-07-01",
-      "end": "2026-07-02"
+      "end": "2026-07-03"
     }
   },
   "lastWeek": {
@@ -89,10 +89,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "lilian": 9,
+      "mathieu": 9,
+      "clara": 4,
+      "total": 22,
       "byDay": {
         "mer. 1": {
           "total": 0,
@@ -105,14 +105,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "ven. 3": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 2,
+      "lilian": 0,
       "mathieu": 0,
-      "clara": 1,
-      "total": 3
+      "clara": 0,
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -137,1820 +143,1820 @@
   "pipeline": {
     "total": 200,
     "byMember": {
-      "lilian": 17,
-      "mathieu": 91,
-      "clara": 92
+      "lilian": 187,
+      "mathieu": 0,
+      "clara": 0
     },
     "byStage": {
       "—": 200
     },
     "byStageAndMember": {
       "—": {
-        "lilian": 17,
-        "mathieu": 91,
-        "clara": 92
+        "lilian": 187,
+        "mathieu": 0,
+        "clara": 0
       }
     },
     "deals": [
       {
-        "id": "503208453306",
-        "name": "Demande de résiliation - bertrandmaugeais@gmail.com",
+        "id": "509511725244",
+        "name": "Demande de résiliation - alexandre.morvan85@gmail.com",
         "stage": "5337224397",
         "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T09:20:55.902Z",
-        "member": "mathieu"
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:49.146Z",
+        "member": null
       },
       {
-        "id": "502360033501",
-        "name": "Demande de résiliation - herazor3pn@gmail.com",
-        "stage": "5337224391",
+        "id": "509515616498",
+        "name": "Demande de résiliation - hermine.keng@gmail.com",
+        "stage": "5340209373",
         "stageLabel": "—",
         "amount": 415,
         "closedate": null,
         "member": "lilian"
       },
       {
-        "id": "504433900776",
-        "name": "Demande de résiliation - tisegundo@gmail.com",
+        "id": "509553332465",
+        "name": "Demande de résiliation - fayet1965@gmail.com",
         "stage": "5340209373",
         "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-31T13:17:04.471Z",
-        "member": "mathieu"
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
       },
       {
-        "id": "504049653957",
-        "name": "RENEW MANSOOR AMANOULLAH",
+        "id": "509452247273",
+        "name": "Demande de résiliation - pierre.bouette@yahoo.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:24:52.692Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509468440818",
+        "name": "Demande de résiliation - elodye10@live.fr",
         "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T13:42:17.934Z",
-        "member": "clara"
-      },
-      {
-        "id": "503814436070",
-        "name": "Demande de résiliation - boll.pascal@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-21T15:13:46.740Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502373164253",
-        "name": "Demande de résiliation - ahmed.charkaoui29200@gmail.com",
-        "stage": "5337224391",
         "stageLabel": "—",
         "amount": 415,
         "closedate": null,
         "member": "lilian"
       },
       {
-        "id": "502473280751",
-        "name": "Demande de résiliation - ezzidi.i@gmail.com",
+        "id": "509504653557",
+        "name": "Demande de résiliation - jbpalma@icloud.com",
         "stage": "5340209373",
         "stageLabel": "—",
         "amount": 415,
         "closedate": null,
-        "member": "mathieu"
+        "member": "lilian"
       },
       {
-        "id": "502439041247",
-        "name": "Demande de résiliation - dorinetagny@gmail.com",
-        "stage": "5337224391",
+        "id": "509529789674",
+        "name": "Demande de résiliation - akram.blouza@gmail.com",
+        "stage": "5340209373",
         "stageLabel": "—",
         "amount": 415,
         "closedate": null,
-        "member": "clara"
+        "member": "lilian"
       },
       {
-        "id": "502488653036",
-        "name": "Demande de résiliation - bertrandmaugeais@gmail.com",
+        "id": "509526346971",
+        "name": "Demande de résiliation - valerie.mansuy7@orange.fr",
         "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": "2026-05-26T13:40:44.460Z",
-        "member": "mathieu"
+        "closedate": "2026-07-03T09:24:54.193Z",
+        "member": "lilian"
       },
       {
-        "id": "502418064608",
-        "name": "Demande de résiliation - matp72000@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 415,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502512198888",
-        "name": "Demande de résiliation - sarah.felstaglang.sft@gmail.com",
+        "id": "509551673565",
+        "name": "Demande de résiliation - axel.boin7@gmail.com",
         "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": "2026-05-27T14:59:55.150Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502454907128",
-        "name": "Demande de résiliation - peggyperret@free.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-13T16:15:36.073Z",
+        "closedate": "2026-07-03T09:24:54.472Z",
         "member": "lilian"
       },
       {
-        "id": "502463511799",
-        "name": "Demande de résiliation - cyril.guyot89@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-22T14:24:08.656Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502484117749",
-        "name": "Demande de résiliation - marion.derfeuil@laposte.net",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502447342812",
-        "name": "Demande de résiliation - stephanie.l.celma@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:09.495Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502608222421",
-        "name": "Demande de résiliation - an-ka@laposte.net",
-        "stage": "5337224392",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502589363413",
-        "name": "Demande de résiliation - mila1908@mail.ru",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-13T12:36:12.196Z",
-        "member": "clara"
-      },
-      {
-        "id": "502608251104",
-        "name": "Demande de résiliation - bitar.christian@yahoo.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502608383211",
-        "name": "Demande de résiliation - jorgetapiaarevalo@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-29T12:46:18.182Z",
-        "member": "clara"
-      },
-      {
-        "id": "502573279421",
-        "name": "Demande de résiliation - alexandre.lemu@yahoo.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502608475352",
-        "name": "Demande de résiliation - aecfrance@yahoo.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T07:58:15.256Z",
-        "member": "clara"
-      },
-      {
-        "id": "502451074260",
-        "name": "Demande de résiliation - alexandre.lemu@yahoo.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502610845899",
-        "name": "Demande de résiliation - diastraore@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502609950941",
-        "name": "Demande de résiliation - odile.pourchasse@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "502609545452",
-        "name": "Demande de résiliation - bertrandno@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T14:05:32.035Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502611093693",
-        "name": "Demande de résiliation - timotheepinon@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-19T13:05:54.777Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502610979004",
-        "name": "Demande de résiliation - laurence.arne@icloud.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "502609914043",
-        "name": "Demande de résiliation - matthieu.louapre@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T13:26:16.754Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502612528321",
-        "name": "Demande de résiliation - labiteyelvina@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502612569325",
-        "name": "Demande de résiliation - anthony.leblond@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502615524553",
-        "name": "Demande de résiliation - yannserre@hotmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502578667728",
-        "name": "Demande de résiliation - marcguibert@free.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-13T15:22:37.789Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502615827695",
-        "name": "Demande de résiliation - chantallevasseur@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502650951907",
-        "name": "Demande de résiliation - marjorie.miasnikas@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502667824314",
-        "name": "Demande de résiliation - guenael_thomas@hotmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502670074096",
-        "name": "Demande de résiliation - lima.83@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T15:37:54.794Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502637971645",
-        "name": "Demande de résiliation - velaymarta@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T08:11:16.022Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502699917542",
-        "name": "Demande de résiliation - lucille14_11@hotmail.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502705870067",
-        "name": "Demande de résiliation - vaninaseigneur@hotmail.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502707529965",
-        "name": "Demande de résiliation - benjamin.baudiffier@sfr.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T08:15:51.990Z",
-        "member": "clara"
-      },
-      {
-        "id": "502722004154",
-        "name": "Demande de résiliation - amandine.bouveur@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-12T12:16:23.031Z",
-        "member": "clara"
-      },
-      {
-        "id": "502720072946",
-        "name": "Demande de résiliation - sonspirater@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502719690984",
-        "name": "Demande de résiliation - aira_janica_93@yahoo.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502689610980",
-        "name": "Demande de résiliation - paulcaucheteux@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502752142539",
-        "name": "Demande de résiliation - ycharles5@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T13:12:09.508Z",
-        "member": "lilian"
-      },
-      {
-        "id": "502754148569",
-        "name": "Demande de résiliation - berylia.bancquart@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T08:27:52.743Z",
-        "member": "clara"
-      },
-      {
-        "id": "502773560534",
-        "name": "Demande de résiliation - x.mbemba@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 0,
-        "closedate": "2026-05-18T13:27:12.163Z",
-        "member": "clara"
-      },
-      {
-        "id": "502956880115",
-        "name": "Demande de résiliation - chaussadass@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T08:31:30.012Z",
-        "member": "clara"
-      },
-      {
-        "id": "502976487658",
-        "name": "Demande de résiliation - alexia.prugnaud@live.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T09:51:07.629Z",
-        "member": "clara"
-      },
-      {
-        "id": "502941747408",
-        "name": "Demande de résiliation - verrier.stephanie@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 599,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502995292349",
-        "name": "Demande de résiliation - berylia.bancquart@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502995431631",
-        "name": "Demande de résiliation - chaussadass@hotmail.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502995819716",
-        "name": "Demande de résiliation - ens.gautier@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "502995999943",
-        "name": "Demande de résiliation - cazaux.chricat@free.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T09:18:35.031Z",
-        "member": "clara"
-      },
-      {
-        "id": "503010197701",
-        "name": "Demande de résiliation - alexandre.f.799@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502955258046",
-        "name": "Demande de résiliation - matthieu.bersi@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503578013934",
-        "name": "Demande de résiliation - mechenins@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:10.110Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502947471578",
-        "name": "Demande de résiliation - fmdjipsu@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-29T15:39:25.615Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503014281426",
-        "name": "Demande de résiliation - e.lavigne@sfr.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "502991828181",
-        "name": "Demande de résiliation - lionelgarcia83@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-21T07:45:24.769Z",
-        "member": "clara"
-      },
-      {
-        "id": "502960709854",
-        "name": "Demande de résiliation - nabrodsli@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:09.957Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "502991879356",
-        "name": "Demande de résiliation - baltazar24@hotmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-18T14:39:23.137Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503023973585",
-        "name": "Demande de résiliation - karine.azoug@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:09.799Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503093735613",
-        "name": "Demande de résiliation - patrick.perego@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-26T13:48:34.414Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503100709100",
-        "name": "Demande de résiliation - frederic.reauly@sfr.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503100794065",
-        "name": "Demande de résiliation - gillesninet@sfr.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503100802264",
-        "name": "Demande de résiliation - immo.mb@hotmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503111214307",
-        "name": "Demande de résiliation - taogasnier@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-04T21:41:09.655Z",
-        "member": "clara"
-      },
-      {
-        "id": "503093791953",
-        "name": "Demande de résiliation - henzocarneiro@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-19T12:41:34.549Z",
-        "member": "clara"
-      },
-      {
-        "id": "503102057713",
-        "name": "Demande de résiliation - jcpaulus@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-22T13:41:42.256Z",
-        "member": "clara"
-      },
-      {
-        "id": "503109181639",
-        "name": "Demande de résiliation - camille.moutard@hotmail.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 449,
-        "closedate": "2026-05-25T14:10:43.415Z",
-        "member": "clara"
-      },
-      {
-        "id": "503039972547",
-        "name": "Demande de résiliation - pascal1.michelot@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-27T08:30:59.481Z",
-        "member": "clara"
-      },
-      {
-        "id": "503104387265",
-        "name": "Demande de résiliation - jamelhammad@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503103375558",
-        "name": "Demande de résiliation - mathieu.dupont.78@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T09:34:39.209Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503135807706",
-        "name": "Demande de résiliation - jeantessier@wanadoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-26T12:16:28.924Z",
-        "member": "clara"
-      },
-      {
-        "id": "503135957193",
-        "name": "Demande de résiliation - madeline.victoire@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503136826575",
-        "name": "Demande de résiliation - bartdeschamps@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503209134309",
-        "name": "Demande de résiliation - aira_janica_93@yahoo.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T07:25:39.796Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503405237491",
-        "name": "Demande de résiliation - emelinechristiaens77@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503403647179",
-        "name": "Demande de résiliation - julie.grimler@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:10.248Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503288297680",
-        "name": "Demande de résiliation - charlesyapi@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T12:19:42.571Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503314376891",
-        "name": "Demande de résiliation - dhinesh.ravitchandirane@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503337478347",
-        "name": "Demande de résiliation - dhinesh.ravitchandirane@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503341531346",
-        "name": "Demande de résiliation - dhinesh.ravitchandirane@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503324837054",
-        "name": "Demande de résiliation - dhinesh.ravitchandirane@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503199133901",
-        "name": "DEMANDE DE RESILIATION - Aurore Durbecq",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-31T09:34:04.608Z",
-        "member": "clara"
-      },
-      {
-        "id": "503296511174",
-        "name": "Demande de résiliation - k.vofrance@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503476449478",
-        "name": "Demande de résiliation - maylis.camus@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-20T15:10:01.404Z",
-        "member": "clara"
-      },
-      {
-        "id": "503352350948",
-        "name": "Demande de résiliation - natachadelavenne@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-20T15:20:13.451Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503207084253",
-        "name": "RENEW Yves Mondet",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T09:16:22.124Z",
-        "member": "clara"
-      },
-      {
-        "id": "503292374255",
-        "name": "Demande de résiliation - brahim.bourhesdis@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503368752370",
-        "name": "Demande de résiliation - foued.chaabnia@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503294227648",
-        "name": "Demande de résiliation - sandrine3791@gmail.com",
-        "stage": "5337224392",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503640548574",
-        "name": "Demande de résiliation - maylis.fontant@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503619761352",
-        "name": "Demande de résiliation - msatge@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-26T13:11:05.353Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503680007387",
-        "name": "Demande de Resiliation - VIRGINIE CARRAUD ",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T07:55:22.915Z",
-        "member": "clara"
-      },
-      {
-        "id": "503632961759",
-        "name": "Demande de résiliation - jacklimousin@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "503763424481",
-        "name": "Demande de résiliation - youness.fahid@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503590719705",
-        "name": "Demande de résiliation - pj.nkosi@yahoo.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-03T15:24:08.019Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503818392795",
-        "name": "Demande de résiliation - aminechibane@yahoo.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-21T14:59:46.638Z",
-        "member": "clara"
-      },
-      {
-        "id": "503940268234",
-        "name": "Demande de résiliation - lopez.lsfd@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-22T10:07:30.403Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503909745862",
-        "name": "Demande de résiliation - stangasiorek@aol.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504005703879",
-        "name": "Demande de résiliation - alanvidemann@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503929612523",
-        "name": "Demande de résiliation - stangasiorek@aol.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "503983143105",
-        "name": "Demande de résiliation - quentinpateau@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-25T14:33:12.052Z",
-        "member": "clara"
-      },
-      {
-        "id": "504067280082",
-        "name": "Demande de résiliation - didierreymond@hotmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-25T13:46:51.129Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503999262908",
-        "name": "Renew - Melyssa Guillement",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-26T12:30:25.973Z",
-        "member": "clara"
-      },
-      {
-        "id": "504048921801",
-        "name": "Demande de résiliation - herve.proton@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T21:41:09.331Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504048224502",
-        "name": "Demande de résiliation – ptasset64@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 899,
-        "closedate": "2026-05-31T14:08:51.437Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504317082858",
-        "name": "Demande de résiliation - pauldefontenilles@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-04T21:41:09.133Z",
-        "member": "clara"
-      },
-      {
-        "id": "503999379674",
-        "name": "Demande de résiliation - e.yagmur@hotmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-28T09:10:34.204Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504340797678",
-        "name": "Demande de résiliation - matthieumahout@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T13:02:22.349Z",
-        "member": "clara"
-      },
-      {
-        "id": "504334229710",
-        "name": "Demande de résiliation - hugues.wahl@sfr.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-29T08:32:02.594Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504363674823",
-        "name": "Demande de résiliation - pablo.santaolalla@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-26T13:37:53.223Z",
-        "member": "clara"
-      },
-      {
-        "id": "504380623055",
-        "name": "Demande de résiliation - laura.vieira.ribeiro@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-22T14:21:39.886Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504375688378",
-        "name": "Demande de résiliation - pascal.bouland@icloud.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504319121646",
-        "name": "Demande de résiliation - cecileroulier@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T12:02:49.491Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504377740519",
-        "name": "Demande de résiliation - camille.moutard@hotmail.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "505034642636",
-        "name": "Demande de résiliation - lmgillier@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 599,
-        "closedate": "2026-06-30T14:19:54.167Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504380827862",
-        "name": "Demande de résiliation - drveehu@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-12T12:38:27.503Z",
-        "member": "clara"
-      },
-      {
-        "id": "504404292801",
-        "name": "Demande de résiliation - christelle.moyroud@live.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-26T14:03:13.813Z",
-        "member": "clara"
-      },
-      {
-        "id": "504411480287",
-        "name": "Demande de résiliation - maelleprudon1@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504412657907",
-        "name": "Demande de résiliation - yann75fr@free.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T15:06:24.048Z",
-        "member": "clara"
-      },
-      {
-        "id": "504446796008",
-        "name": "Demande de résiliation - dragi.gacic@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504333426922",
-        "name": "Demande de résiliation - sureau.valerian@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504451975369",
-        "name": "Demande de résiliation - celgic@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504451547347",
-        "name": "Demande de résiliation - abdel.kasraoui@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504451082469",
-        "name": "Demande de résiliation - abdel.kasraoui@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-19T13:03:33.338Z",
-        "member": "clara"
-      },
-      {
-        "id": "504450001089",
-        "name": "Demande de résiliation - d100562@hotmail.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504458255557",
-        "name": "Demande de résiliation - b.vicente@groupedelaforge.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-29T08:53:53.095Z",
-        "member": "clara"
-      },
-      {
-        "id": "504475786469",
-        "name": "Demande de résiliation - gitedebreuil@gmail.com",
-        "stage": "5337224392",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504513583317",
-        "name": "Demande de résiliation - bertrand.siejak@sfr.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504508161241",
-        "name": "Demande de résiliation - vilyluu@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-27T15:47:15.608Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "503999383772",
-        "name": "Demande de résiliation - christo-jet7@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T08:24:34.336Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504049931468",
-        "name": "RENEW - Angelique Costa",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T08:26:05.788Z",
-        "member": "clara"
-      },
-      {
-        "id": "504530716895",
-        "name": "Demande de résiliation - manon.canivet@orange.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T09:06:43.959Z",
-        "member": "clara"
-      },
-      {
-        "id": "504525920495",
-        "name": "Renew - William Todeschini",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 699,
-        "closedate": "2026-05-31T11:42:48.207Z",
-        "member": "clara"
-      },
-      {
-        "id": "504559864013",
-        "name": "Demande de résiliation - pag_30@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-19T13:34:23.250Z",
-        "member": "clara"
-      },
-      {
-        "id": "504547006672",
-        "name": "Demande de résiliation - pag_30@hotmail.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504546862327",
-        "name": "Demande de résiliation - paula.lecourt@hotmail.fr",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-10T07:37:59.021Z",
-        "member": "clara"
-      },
-      {
-        "id": "504559721711",
-        "name": "Demande de résiliation - locatifolivier@hotmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T09:05:12.263Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504493682906",
-        "name": "Demande de résiliation - gilles.carrade@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-28T07:21:08.094Z",
-        "member": "clara"
-      },
-      {
-        "id": "504497848541",
-        "name": "Demande de résiliation - clementinecrt@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-23T09:47:57.985Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504595577072",
-        "name": "Demande de résiliation - celinamforte@hotmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-29T11:59:51.521Z",
-        "member": "clara"
-      },
-      {
-        "id": "504637214916",
-        "name": "Demande de résiliation - beaulieuchristian@ymail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504746565866",
-        "name": "Demande de résiliation - legoetlune1978@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504745043185",
-        "name": "Demande de résiliation - gomezjonathan@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "504664469744",
-        "name": "Demande de résiliation - carolinebarbera@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-31T08:15:23.999Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504763057345",
-        "name": "Demande de résiliation - contact.ecogest@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504434420934",
-        "name": "Demande de résiliation - Fatiha Bouchakrout",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-05-31T08:44:32.800Z",
-        "member": "clara"
-      },
-      {
-        "id": "504665264348",
-        "name": "Demande de résiliation - Aurore Durbecq",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-31T08:45:53.069Z",
-        "member": "clara"
-      },
-      {
-        "id": "504749589721",
-        "name": "Demande de résiliation - vigninnou.dakpo@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-19T13:33:37.340Z",
-        "member": "clara"
-      },
-      {
-        "id": "504761615567",
-        "name": "Demande de résiliation - sanchoukroun@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504740589813",
-        "name": "Demande de résiliation - pauldefontenilles@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504787514581",
-        "name": "Demande de résiliation - ridsa@hotmail.fr",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504801040571",
-        "name": "Demande de résiliation - Oscar Audouit",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-05-31T15:33:15.853Z",
-        "member": "clara"
-      },
-      {
-        "id": "504963141831",
-        "name": "Demande de résiliation - manonprenel@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "505774700748",
-        "name": "Demande de résiliation – yeasminshakila1@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-10T08:10:13.106Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504985419966",
-        "name": "Demande de résiliation - guillaume75015@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "504977739968",
-        "name": "Demande de résiliation - rtaing44@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-03T13:20:47.077Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504946807008",
-        "name": "Demande de résiliation - alice96.bt@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-19T12:20:31.664Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504987528412",
-        "name": "Demande de résiliation - sandrinemochet@hotmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "504988273900",
-        "name": "Demande de résiliation - tabarinialexandre@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-08T12:39:18.950Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "504995741904",
-        "name": "Demande de résiliation - cherine.menai1979@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "504998285552",
-        "name": "Demande de résiliation - n.sabou@hotmail.fr",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "506220268782",
-        "name": "Demande de résiliation - stegeman.marc@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 399,
-        "closedate": "2026-06-30T13:10:24.334Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505050996932",
-        "name": "Demande de résiliation - david97160ta@hotmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "505054627028",
-        "name": "Demande de résiliation - quentinmontanari@live.fr",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "505148623092",
-        "name": "Demande de résiliation - paulien.remi@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-05T15:29:33.447Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505019656422",
-        "name": "Demande de résiliation - contact@studioradiomedia.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-11T10:16:08.157Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505102903537",
-        "name": "Demande de résiliation - titouan.lefebvre17@gmail.com",
-        "stage": "5340209373",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "505110837494",
-        "name": "Demande de résiliation - cyril.tomkevitch@gmail.com",
+        "id": "509562314951",
+        "name": "Demande de résiliation - alicia.dufour91@gmail.com",
         "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": "2026-06-08T13:05:49.683Z",
+        "closedate": "2026-07-03T09:24:54.870Z",
         "member": "lilian"
       },
       {
-        "id": "505057127660",
-        "name": "Demande de résiliation - jeanbaptiste.perez00@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-03T15:26:00.567Z",
-        "member": "lilian"
-      },
-      {
-        "id": "505129873645",
-        "name": "Demande de résiliation - sabfontaine@laposte.net",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "505086144740",
-        "name": "Demande de résiliation - ophelie.semelane@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-03T15:23:44.998Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505057291513",
-        "name": "Demande de résiliation - kate_5225617@hotmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "505026698464",
-        "name": "Demande de résiliation - llasfargues@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T07:28:39.609Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505210244291",
-        "name": "Demande de résiliation - n.plusquellec@hotmail.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-17T08:24:48.986Z",
-        "member": "clara"
-      },
-      {
-        "id": "505230449850",
-        "name": "Demande de résiliation - amelie.tessier@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-17T08:10:13.898Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505068942569",
-        "name": "Demande de résiliation - christina.loecke@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "505229964504",
-        "name": "Demande de résiliation - ganhito.sebastien@neuf.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-09T15:58:31.578Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505207765221",
-        "name": "Demande de résiliation - deborahpawlik@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-05T15:27:08.439Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505266157807",
-        "name": "Demande de résiliation - marie.mounier.c@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "505263688917",
-        "name": "Demande de résiliation - juliana.rademaker@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-12T15:49:38.621Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505265433795",
-        "name": "Demande de résiliation - guillaume75015@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "lilian"
-      },
-      {
-        "id": "505308914911",
-        "name": "Demande de résiliation - sguediri1@hotmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-17T08:46:40.848Z",
-        "member": "lilian"
-      },
-      {
-        "id": "505329992900",
-        "name": "Demande de résiliation - bion.jeremy26@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-18T14:00:17.030Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505345378537",
-        "name": "Demande de résiliation - viviane.nolin@gmail.com",
-        "stage": "5337224396",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-05T15:28:15.514Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505349406968",
-        "name": "Demande de résiliation - toulgui.medali@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T12:39:33.236Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505357654249",
-        "name": "Demande de résiliation - cami.leray@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-22T13:04:54.826Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505358852303",
-        "name": "Demande de résiliation - pnoyez@wanadoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-04T14:06:40.422Z",
-        "member": "mathieu"
-      },
-      {
-        "id": "505367319782",
-        "name": "Demande de résiliation - ugo.simon29@gmail.com",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-17T08:23:45.150Z",
-        "member": "lilian"
-      },
-      {
-        "id": "505627386080",
-        "name": "Demande de résiliation - aureli.moreau@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "mathieu"
-      },
-      {
-        "id": "505519866099",
-        "name": "Demande de résiliation - josette_biya@yahoo.fr",
+        "id": "509490236638",
+        "name": "Demande de résiliation - mrbesse@me.com",
         "stage": "5340209373",
         "stageLabel": "—",
-        "amount": 399,
+        "amount": 415,
         "closedate": null,
-        "member": "clara"
+        "member": "lilian"
       },
       {
-        "id": "505618990285",
-        "name": "Demande de résiliation - aureli.moreau@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "505506400467",
-        "name": "Demande de résiliation - toussaint.thom@gmail.com",
-        "stage": "5337224393",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-08T13:34:00.002Z",
-        "member": "clara"
-      },
-      {
-        "id": "505638928583",
-        "name": "Demande de résiliation - jm.prie@yahoo.fr",
-        "stage": "5337224397",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": "2026-06-09T15:20:47.130Z",
-        "member": "clara"
-      },
-      {
-        "id": "505520047302",
-        "name": "Demande de résiliation - aureli.moreau@gmail.com",
-        "stage": "5337224391",
-        "stageLabel": "—",
-        "amount": 499,
-        "closedate": null,
-        "member": "clara"
-      },
-      {
-        "id": "505638314189",
-        "name": "Demande de résiliation - aureli.moreau@gmail.com",
+        "id": "509521013982",
+        "name": "Demande de résiliation - raphael.cocciolo@gmail.com",
         "stage": "5340209373",
         "stageLabel": "—",
-        "amount": 499,
+        "amount": 415,
         "closedate": null,
-        "member": "mathieu"
+        "member": "lilian"
       },
       {
-        "id": "505584305387",
-        "name": "Demande de résiliation - yoann.ledey@outlook.fr",
-        "stage": "5337224393",
+        "id": "509443189971",
+        "name": "Demande de résiliation - carolinemoreau67@outlook.fr",
+        "stage": "5340209373",
         "stageLabel": "—",
-        "amount": 499,
+        "amount": 415,
         "closedate": null,
-        "member": "clara"
+        "member": "lilian"
+      },
+      {
+        "id": "509457564858",
+        "name": "Demande de résiliation - bastien.debaud@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509542769867",
+        "name": "Demande de résiliation - bertrand.vf@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549955291",
+        "name": "Demande de résiliation - asimonbm1@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509479167180",
+        "name": "Demande de résiliation - alexandre.maille11@laposte.net",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509511721180",
+        "name": "Demande de résiliation - alexia.tran@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509553375439",
+        "name": "Demande de résiliation - anthonysabbah25@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509435978969",
+        "name": "Demande de résiliation - sim.bouriat@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509481105657",
+        "name": "Demande de résiliation - rrfabien@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509490238661",
+        "name": "Demande de résiliation - sylviacros.v@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509511721182",
+        "name": "Demande de résiliation - manuelbeautour@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509548145858",
+        "name": "Demande de résiliation - laura.arrighi@lilo.org",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509555154113",
+        "name": "Demande de résiliation - micnald@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:27:52Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509560528059",
+        "name": "Demande de résiliation - sophie.perrin.ravier@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509526350015",
+        "name": "Demande de résiliation - jeanphilippepouquet@ik.me",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509529791694",
+        "name": "Demande de résiliation - f_appenzeller@hotmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:27:53.423Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509562316025",
+        "name": "Demande de résiliation - florianepavia@outlook.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509441478899",
+        "name": "Demande de résiliation - tdechoiseul@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:27:53.938Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509468444866",
+        "name": "Demande de résiliation - plb91210@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509522776284",
+        "name": "Demande de résiliation - viviane.faret@sfr.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509457564902",
+        "name": "Demande de résiliation - baptisteherve@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:46.428Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509488344294",
+        "name": "Demande de résiliation - agostini.stephan@orange.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:46.710Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509443191009",
+        "name": "Demande de résiliation - l.davisseau@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:48.140Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509461167315",
+        "name": "Demande de résiliation - kathleen38.oudart@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509524482259",
+        "name": "Demande de résiliation - dimetvincent@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509524482260",
+        "name": "Demande de résiliation - bernardelvis02@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:48.400Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509544575185",
+        "name": "Demande de résiliation - shingokitada23@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:47.308Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509548146876",
+        "name": "Demande de résiliation - thomas@mentorgoal.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:28:47.882Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509548146879",
+        "name": "Demande de résiliation - mmelesan@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549956313",
+        "name": "Demande de résiliation - mignon.gwen@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549956345",
+        "name": "Demande de résiliation - syl.larrue@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509553376462",
+        "name": "Demande de résiliation - romain.mary14@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509437790456",
+        "name": "Demande de résiliation - carole.ecobichon@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509443192003",
+        "name": "Demande de résiliation - francois.immo.chartres@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:29:53.864Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509488345282",
+        "name": "Demande de résiliation - bismic69@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:29:53.295Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511722220",
+        "name": "Demande de résiliation - ludovic.dubreuil12@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:29:53.580Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509524482278",
+        "name": "Demande de résiliation - lohernandez@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509477364980",
+        "name": "Demande de résiliation - virginie.czyz@icloud.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509479168206",
+        "name": "Demande de résiliation - julien.fontanarava@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:29:55.139Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509524482289",
+        "name": "Demande de résiliation - laurentverges50@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549957306",
+        "name": "Demande de résiliation - ameliepecnard@icloud.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509457565901",
+        "name": "Demande de résiliation - magbabin@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:24.666Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509462996213",
+        "name": "Demande de résiliation - romainbraccalenti@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509479168219",
+        "name": "Demande de résiliation - romain.bernasconi@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:24.413Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511722228",
+        "name": "Demande de résiliation - hblamiss@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:24.199Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509435981014",
+        "name": "Demande de résiliation - alexiane.poisson@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509437791431",
+        "name": "Demande de résiliation - guez.gary@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461169347",
+        "name": "Demande de résiliation - alexia.sennerich@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:25.093Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509461169348",
+        "name": "Demande de résiliation - alexandra.coudray@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461169361",
+        "name": "Demande de résiliation - tinyholidays971@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:49.172Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509524482290",
+        "name": "Demande de résiliation - v.mccoy@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509524482291",
+        "name": "Demande de résiliation - pauline.boedec@live.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509435981015",
+        "name": "Demande de résiliation - theophile.schille@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509435981017",
+        "name": "Demande de résiliation - wakspace@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:50.228Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509437791451",
+        "name": "Demande de résiliation - gscokart@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:49.801Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509542771911",
+        "name": "Demande de résiliation - dcouton4@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461169363",
+        "name": "Demande de résiliation - florence.coutier@laposte.net",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:50.864Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511723227",
+        "name": "Demande de résiliation - haleba.benoit@hotmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509542771913",
+        "name": "Demande de résiliation - cecile@pebeyre.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509490239721",
+        "name": "Demande de résiliation - anass.aarab@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509504658650",
+        "name": "Demande de résiliation - franck.vautier@neuf.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509521022145",
+        "name": "Demande de résiliation - nelsy.flores31@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:15.786Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509544576197",
+        "name": "Demande de résiliation - martinegoss@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:51.046Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509562319050",
+        "name": "Demande de résiliation - asma.elmehdaoui@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509482873052",
+        "name": "Demande de résiliation - fanny.coutinho@sfr.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509482873053",
+        "name": "Demande de résiliation - audrey.klocker@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509515620595",
+        "name": "Demande de résiliation - fabrice.guiomard75@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509555157208",
+        "name": "Demande de résiliation - david_sumera@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509441481925",
+        "name": "Demande de résiliation - ennilghizlane4@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:16.994Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509521022163",
+        "name": "Demande de résiliation - hokan.anim@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:39.974Z",
+        "member": null
+      },
+      {
+        "id": "509551677637",
+        "name": "Demande de résiliation - dylan.rchd@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:17.208Z",
+        "member": null
+      },
+      {
+        "id": "509492032752",
+        "name": "Demande de résiliation - so.cammarano@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": null
+      },
+      {
+        "id": "509490240735",
+        "name": "Demande de résiliation - sauniernicolas@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:40.858Z",
+        "member": null
+      },
+      {
+        "id": "509521022164",
+        "name": "Demande de résiliation - crashbondicot@msn.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:40.328Z",
+        "member": null
+      },
+      {
+        "id": "509522778360",
+        "name": "Demande de résiliation - lea.poencin@hotmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:40.679Z",
+        "member": null
+      },
+      {
+        "id": "509526353105",
+        "name": "Demande de résiliation - neophil007@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": null
+      },
+      {
+        "id": "509441481943",
+        "name": "Demande de résiliation - loris.cafiero@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:41.023Z",
+        "member": null
+      },
+      {
+        "id": "509481108700",
+        "name": "Demande de résiliation - farid.bentout@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:41.238Z",
+        "member": null
+      },
+      {
+        "id": "509468446928",
+        "name": "Demande de résiliation - hamza.massaoudi.1994@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:03.838Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509468446929",
+        "name": "Demande de résiliation - kone.nat@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509482873077",
+        "name": "Demande de résiliation - jonathan.melet@laposte.net",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:41.537Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509521022166",
+        "name": "Demande de résiliation - aurelieguillermin74@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509521022180",
+        "name": "Demande de résiliation - gauthier.abomnes@outlook.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:03.619Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509526353127",
+        "name": "Demande de résiliation - michelelegrandl@orange.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509526353128",
+        "name": "Demande de résiliation - dechamps.n@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:03.424Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509526353130",
+        "name": "Demande de résiliation - julienboisgontier@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509529795806",
+        "name": "Demande de résiliation - annstewart001@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509555158203",
+        "name": "Demande de résiliation - alexia.tran@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509562319094",
+        "name": "Demande de résiliation - a_rabhi@hotmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509441482960",
+        "name": "Demande de résiliation - marylou.jugon@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509468446930",
+        "name": "Demande de résiliation - matthieu.lepuil@hotmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509481109718",
+        "name": "Demande de résiliation - djama.salah@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509481109720",
+        "name": "Demande de résiliation - fralongy@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:28.365Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509481109721",
+        "name": "Demande de résiliation - frcs.sanson@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509481109723",
+        "name": "Demande de résiliation - constancericour@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509515621623",
+        "name": "Demande de résiliation - bjmoulin@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509522779380",
+        "name": "Demande de résiliation - sdelongeville@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:29.447Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509529796801",
+        "name": "Demande de résiliation - dominimarti@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:28.080Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509551678672",
+        "name": "Demande de résiliation - antoine2380@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": null
+      },
+      {
+        "id": "509562320090",
+        "name": "Demande de résiliation - elodiem2109@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:29.624Z",
+        "member": null
+      },
+      {
+        "id": "509477367008",
+        "name": "Demande de résiliation - alexandre.delaire@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:53.555Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511726277",
+        "name": "Demande de résiliation - schroeter.valente@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:53.390Z",
+        "member": null
+      },
+      {
+        "id": "509511726278",
+        "name": "Demande de résiliation - h.itoudj@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509542773959",
+        "name": "Demande de résiliation - sreto@orange.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509548148953",
+        "name": "Demande de résiliation - dohouroland@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509511726279",
+        "name": "Demande de résiliation - groppi.olivia@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:54.181Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509542773963",
+        "name": "Demande de résiliation - jean_michel_66@hotmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461171401",
+        "name": "Demande de résiliation - morgan.giangrande@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:32:54.600Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509479170256",
+        "name": "Demande de résiliation - malaurymazal@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509544577272",
+        "name": "Demande de résiliation - margot.sanz.13127@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509452253423",
+        "name": "Demande de résiliation - chloesa@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:18.767Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509482876097",
+        "name": "Demande de résiliation - ricci_laetitia@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509555159238",
+        "name": "Demande de résiliation - jaimeur70@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509481110736",
+        "name": "Demande de résiliation - besma_ben_attia@live.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:19.752Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509481110737",
+        "name": "Demande de résiliation - adele.defredy@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509504660669",
+        "name": "Demande de résiliation - stephaniezakhary@hotmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509560531163",
+        "name": "Demande de résiliation - chloe.dru@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509562321112",
+        "name": "Demande de résiliation - valerie.benloulou@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461171422",
+        "name": "Demande de résiliation - thaichantal@yahoo.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:43.962Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509521024190",
+        "name": "Demande de résiliation - lindamahe9@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:20.464Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549960420",
+        "name": "Demande de résiliation - sirianni.marion@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509551679697",
+        "name": "Demande de résiliation - maher.chebbo@hotmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:20.683Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509553380587",
+        "name": "Demande de résiliation - goy5917@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509511726309",
+        "name": "Demande de résiliation - h.itoudj@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509524485311",
+        "name": "Demande de résiliation - ea.jara@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:44.154Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511726310",
+        "name": "Demande de résiliation - cyrilarnalis@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:44.677Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509435985091",
+        "name": "Demande de résiliation - autret.lea@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549960421",
+        "name": "Demande de résiliation - anne.chretienaub70@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:44.878Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549960422",
+        "name": "Demande de résiliation - tif.impa@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:45.041Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509435985109",
+        "name": "Demande de résiliation - tonydemeure@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509437793497",
+        "name": "Demande de résiliation - slabatut@var.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509443194100",
+        "name": "Demande de résiliation - arthur.bureau@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509457567988",
+        "name": "Demande de résiliation - danimathie34@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461171427",
+        "name": "Demande de résiliation - madison92@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:33:45.456Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549961405",
+        "name": "Demande de résiliation - ladoux.guillaume@orange.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509462999260",
+        "name": "Demande de résiliation - timothe.rey@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:09.987Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511726329",
+        "name": "Demande de résiliation - svillelongue@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509548149967",
+        "name": "Demande de résiliation - valentin.cuffini@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:10.405Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549961407",
+        "name": "Demande de résiliation - gitedubocage@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:09.560Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509553380597",
+        "name": "Demande de résiliation - ameni.kacem@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509443207383",
+        "name": "Demande de résiliation - sofiane.yazid@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509477372151",
+        "name": "Demande de résiliation - angeliquecrosta@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:35.654Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509524489415",
+        "name": "Demande de résiliation - irivalia@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:35.410Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509439586499",
+        "name": "Demande de résiliation - tzevaco@hotmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:36.606Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509443200238",
+        "name": "Demande de résiliation - mariepf34@icloud.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:36.211Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509511730398",
+        "name": "Demande de résiliation - emmanuellesimon@wanadoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509548154060",
+        "name": "Demande de résiliation - guillaumedavid1997@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:36.022Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549964525",
+        "name": "Demande de résiliation - tiphainerihet@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:36.395Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509553385715",
+        "name": "Demande de résiliation - djamal.benali@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:34:36.770Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509479180510",
+        "name": "Demande de résiliation - sans93220@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:00.728Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509524495577",
+        "name": "Demande de résiliation - jcsammut13@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509544583389",
+        "name": "Demande de résiliation - kevinfardel60@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509553386686",
+        "name": "Demande de résiliation - nawalle.yakine@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509439591630",
+        "name": "Demande de résiliation - chloeguyot@wanadoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509479180512",
+        "name": "Demande de résiliation - andrea33400@hotmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:01.332Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509548159198",
+        "name": "Demande de résiliation - sabrina38950@outlook.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509443206359",
+        "name": "Demande de résiliation - davidlafargue@laposte.net",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509477378271",
+        "name": "Demande de résiliation - evan.linker@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:02.109Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509529792723",
+        "name": "Demande de résiliation - romain.allezparis@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509544589551",
+        "name": "Demande de résiliation - eva.auge@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:01.927Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509544589552",
+        "name": "Demande de résiliation - yannickomnozez@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:02.438Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509549970643",
+        "name": "Demande de résiliation - benoitblanc13200@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:35:01.547Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509562318047",
+        "name": "Demande de résiliation - athadaruwa@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509526351055",
+        "name": "Demande de résiliation - melanie.cren@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:07.054Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509551676639",
+        "name": "Demande de résiliation - maximethon99@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:07.631Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509555156205",
+        "name": "Demande de résiliation - mickael.payen@gpseo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509452251329",
+        "name": "Demande de résiliation - marine.cauvin@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:07.930Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509522777333",
+        "name": "Demande de résiliation - romain.sanna@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509522777334",
+        "name": "Demande de résiliation - sophie.alimoussa@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:08.716Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509560529097",
+        "name": "Demande de résiliation - damien.climent@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509490239689",
+        "name": "Demande de résiliation - claraclaude@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:08.946Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509521021156",
+        "name": "Demande de résiliation - olivia.filhastre@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509522778316",
+        "name": "Demande de résiliation - fr.immocontact@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509522778317",
+        "name": "Demande de résiliation - anais.lecalve06@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:34.998Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509481107688",
+        "name": "Demande de résiliation - awsmkr@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:35.190Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509555157182",
+        "name": "Demande de résiliation - justine.debeve@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:35.568Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509562318067",
+        "name": "Demande de résiliation - sylvain1807@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:35.395Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509482873025",
+        "name": "Demande de résiliation - leaaco@yahoo.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509562318068",
+        "name": "Demande de résiliation - fcan.whynot@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509482873026",
+        "name": "Demande de résiliation - akp-imo@outlook.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:30:36.428Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509521021158",
+        "name": "Demande de résiliation - corentin.sautejeau@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509477365971",
+        "name": "Demande de résiliation - arthur.michaux@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509549958358",
+        "name": "Demande de résiliation - mostely@gmail.com",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:04.443Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509457565925",
+        "name": "Demande de résiliation - marion-ratm@hotmail.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509461169371",
+        "name": "Demande de résiliation - melanie-magro@hotmail.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:04.940Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509461169372",
+        "name": "Demande de résiliation - klervikeromnes@live.fr",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
+      },
+      {
+        "id": "509477365972",
+        "name": "Demande de résiliation - i.labeyrie@free.fr",
+        "stage": "5337224397",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": "2026-07-03T09:31:05.309Z",
+        "member": "lilian"
+      },
+      {
+        "id": "509477365974",
+        "name": "Demande de résiliation - dhikrafeki@gmail.com",
+        "stage": "5340209373",
+        "stageLabel": "—",
+        "amount": 415,
+        "closedate": null,
+        "member": "lilian"
       }
     ]
   }
