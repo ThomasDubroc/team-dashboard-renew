@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:17:54.464Z",
+  "generatedAt": "2026-07-10T10:13:37.473Z",
   "periods": {
     "lastWeek": {
       "start": "2026-06-29",
@@ -7,15 +7,15 @@
     },
     "thisMonth": {
       "start": "2026-07-01",
-      "end": "2026-07-09"
+      "end": "2026-07-10"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "lilian": 16,
+      "mathieu": 34,
+      "clara": 13,
+      "total": 63,
       "byDay": {
         "lun. 29": {
           "total": 0,
@@ -76,22 +76,9 @@
     "churnReason": {
       "lilian": 0,
       "mathieu": 0,
-      "clara": 2,
-      "total": 2,
-      "reasons": [
-        {
-          "reason": "Trop cher",
-          "count": 1
-        },
-        {
-          "reason": "Plusieurs activités",
-          "count": 1
-        },
-        {
-          "reason": "Manque de fonctionnalité",
-          "count": 1
-        }
-      ]
+      "clara": 0,
+      "total": 0,
+      "reasons": []
     },
     "churnNoShow": {
       "lilian": 0,
@@ -102,10 +89,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 25,
+      "lilian": 32,
       "mathieu": 17,
       "clara": 8,
-      "total": 50,
+      "total": 57,
       "byDay": {
         "mer. 1": {
           "total": 0,
@@ -160,14 +147,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "ven. 10": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 7,
+      "lilian": 9,
       "mathieu": 4,
       "clara": 2,
-      "total": 13
+      "total": 15
     },
     "tickets": {
       "lilian": 0,
@@ -177,10 +170,19 @@
     },
     "churnReason": {
       "lilian": 0,
-      "mathieu": 0,
+      "mathieu": 1,
       "clara": 0,
-      "total": 0,
-      "reasons": []
+      "total": 1,
+      "reasons": [
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Démembrement",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
