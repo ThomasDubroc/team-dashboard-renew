@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T08:58:24.709Z",
+  "generatedAt": "2026-07-15T09:04:17.489Z",
   "periods": {
     "lastWeek": {
       "start": "2026-07-06",
@@ -7,15 +7,15 @@
     },
     "thisMonth": {
       "start": "2026-07-01",
-      "end": "2026-07-14"
+      "end": "2026-07-15"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "lilian": 23,
+      "mathieu": 8,
+      "clara": 6,
+      "total": 37,
       "byDay": {
         "lun. 6": {
           "total": 0,
@@ -62,10 +62,10 @@
       }
     },
     "meetings": {
-      "lilian": 7,
-      "mathieu": 6,
-      "clara": 2,
-      "total": 15
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -102,10 +102,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 40,
-      "mathieu": 20,
-      "clara": 13,
-      "total": 73,
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
         "mer. 1": {
           "total": 0,
@@ -190,14 +190,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "mer. 15": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 11,
-      "mathieu": 8,
-      "clara": 3,
-      "total": 22
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
     },
     "tickets": {
       "lilian": 0,
@@ -206,11 +212,28 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
+      "lilian": 1,
+      "mathieu": 1,
+      "clara": 1,
+      "total": 3,
+      "reasons": [
+        {
+          "reason": "Non géré - Reprise de compta",
+          "count": 2
+        },
+        {
+          "reason": "No show - sans raison",
+          "count": 2
+        },
+        {
+          "reason": "Manque de fonctionnalité",
+          "count": 1
+        },
+        {
+          "reason": "Non géré - Démembrement",
+          "count": 1
+        }
+      ]
     },
     "churnNoShow": {
       "lilian": 0,
