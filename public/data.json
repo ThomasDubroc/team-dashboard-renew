@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:04:17.489Z",
+  "generatedAt": "2026-07-16T09:07:31.564Z",
   "periods": {
     "lastWeek": {
       "start": "2026-07-06",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-07-01",
-      "end": "2026-07-15"
+      "end": "2026-07-16"
     }
   },
   "lastWeek": {
@@ -74,24 +74,11 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 1,
-      "mathieu": 1,
+      "lilian": 0,
+      "mathieu": 0,
       "clara": 0,
-      "total": 2,
-      "reasons": [
-        {
-          "reason": "No show - sans raison",
-          "count": 1
-        },
-        {
-          "reason": "Non géré - Démembrement",
-          "count": 1
-        },
-        {
-          "reason": "Non géré - Reprise de compta",
-          "count": 1
-        }
-      ]
+      "total": 0,
+      "reasons": []
     },
     "churnNoShow": {
       "lilian": 0,
@@ -102,10 +89,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "lilian": 47,
+      "mathieu": 27,
+      "clara": 22,
+      "total": 96,
       "byDay": {
         "mer. 1": {
           "total": 0,
@@ -196,6 +183,12 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "jeu. 16": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
@@ -212,28 +205,11 @@
       "total": 0
     },
     "churnReason": {
-      "lilian": 1,
-      "mathieu": 1,
-      "clara": 1,
-      "total": 3,
-      "reasons": [
-        {
-          "reason": "Non géré - Reprise de compta",
-          "count": 2
-        },
-        {
-          "reason": "No show - sans raison",
-          "count": 2
-        },
-        {
-          "reason": "Manque de fonctionnalité",
-          "count": 1
-        },
-        {
-          "reason": "Non géré - Démembrement",
-          "count": 1
-        }
-      ]
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
+      "reasons": []
     },
     "churnNoShow": {
       "lilian": 0,
