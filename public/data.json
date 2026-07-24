@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:17:57.443Z",
+  "generatedAt": "2026-07-24T09:13:55.703Z",
   "periods": {
     "lastWeek": {
       "start": "2026-07-13",
@@ -7,7 +7,7 @@
     },
     "thisMonth": {
       "start": "2026-07-01",
-      "end": "2026-07-23"
+      "end": "2026-07-24"
     }
   },
   "lastWeek": {
@@ -91,8 +91,8 @@
     "calls": {
       "lilian": 69,
       "mathieu": 58,
-      "clara": 39,
-      "total": 166,
+      "clara": 42,
+      "total": 169,
       "byDay": {
         "mer. 1": {
           "total": 0,
@@ -227,6 +227,12 @@
           "clara": 0
         },
         "jeu. 23": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "ven. 24": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
