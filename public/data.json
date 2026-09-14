@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-09-11T11:56:01.328Z",
+  "generatedAt": "2026-09-14T13:28:07.685Z",
   "periods": {
     "lastWeek": {
-      "start": "2026-08-31",
-      "end": "2026-09-06"
+      "start": "2026-09-07",
+      "end": "2026-09-13"
     },
     "thisMonth": {
       "start": "2026-09-01",
-      "end": "2026-09-11"
+      "end": "2026-09-14"
     }
   },
   "lastWeek": {
     "calls": {
       "lilian": 0,
-      "mathieu": 67,
-      "clara": 35,
-      "total": 102,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
-        "lun. 31": {
+        "lun. 7": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mar. 1": {
+        "mar. 8": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mer. 2": {
+        "mer. 9": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "jeu. 3": {
+        "jeu. 10": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "ven. 4": {
+        "ven. 11": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "sam. 5": {
+        "sam. 12": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "dim. 6": {
+        "dim. 13": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
@@ -62,10 +62,10 @@
       }
     },
     "meetings": {
-      "lilian": 0,
-      "mathieu": 8,
-      "clara": 6,
-      "total": 14
+      "lilian": 26,
+      "mathieu": 20,
+      "clara": 20,
+      "total": 66
     },
     "tickets": {
       "lilian": 0,
@@ -159,14 +159,32 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "sam. 12": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "dim. 13": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "lun. 14": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 20,
-      "mathieu": 21,
-      "clara": 23,
-      "total": 64
+      "lilian": 28,
+      "mathieu": 27,
+      "clara": 28,
+      "total": 83
     },
     "tickets": {
       "lilian": 0,
