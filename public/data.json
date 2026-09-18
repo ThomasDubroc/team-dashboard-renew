@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:17:36.461Z",
+  "generatedAt": "2026-09-18T11:58:05.333Z",
   "periods": {
     "lastWeek": {
       "start": "2026-09-07",
@@ -7,15 +7,15 @@
     },
     "thisMonth": {
       "start": "2026-09-01",
-      "end": "2026-09-17"
+      "end": "2026-09-18"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 64,
-      "mathieu": 83,
-      "clara": 53,
-      "total": 200,
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
         "lun. 7": {
           "total": 0,
@@ -89,10 +89,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 35,
-      "mathieu": 115,
-      "clara": 50,
-      "total": 200,
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
         "mar. 1": {
           "total": 0,
@@ -195,14 +195,20 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "ven. 18": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 37,
-      "mathieu": 33,
-      "clara": 33,
-      "total": 103
+      "lilian": 45,
+      "mathieu": 43,
+      "clara": 41,
+      "total": 129
     },
     "tickets": {
       "lilian": 0,
@@ -290,10 +296,10 @@
       {
         "id": "509468440818",
         "name": "Demande de résiliation - elodye10@live.fr",
-        "stage": "5340209373",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": null,
+        "closedate": "2026-09-17T14:47:20.902Z",
         "member": "lilian"
       },
       {
@@ -344,10 +350,10 @@
       {
         "id": "509490236638",
         "name": "Demande de résiliation - mrbesse@me.com",
-        "stage": "5340209373",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": null,
+        "closedate": "2026-09-17T14:47:14.568Z",
         "member": "lilian"
       },
       {
@@ -407,10 +413,10 @@
       {
         "id": "516895763677",
         "name": "Demande de résiliation - alexia.tran@live.fr",
-        "stage": "5340209373",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": null,
+        "closedate": "2026-09-17T14:47:12.801Z",
         "member": "lilian"
       },
       {
@@ -929,10 +935,10 @@
       {
         "id": "509562319050",
         "name": "Demande de résiliation - asma.elmehdaoui@gmail.com",
-        "stage": "5340209373",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": null,
+        "closedate": "2026-09-17T14:47:00.311Z",
         "member": "lilian"
       },
       {
@@ -1280,10 +1286,10 @@
       {
         "id": "509548148953",
         "name": "Demande de résiliation - dohouroland@live.fr",
-        "stage": "5340209373",
+        "stage": "5337224397",
         "stageLabel": "—",
         "amount": 415,
-        "closedate": null,
+        "closedate": "2026-09-17T14:47:15.690Z",
         "member": "lilian"
       },
       {
