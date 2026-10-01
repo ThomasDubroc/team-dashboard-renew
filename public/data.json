@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-30T13:08:05.707Z",
+  "generatedAt": "2026-10-01T14:00:10.514Z",
   "periods": {
     "lastWeek": {
       "start": "2026-09-21",
       "end": "2026-09-27"
     },
     "thisMonth": {
-      "start": "2026-09-01",
-      "end": "2026-09-30"
+      "start": "2026-10-01",
+      "end": "2026-10-01"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 1,
-      "mathieu": 55,
-      "clara": 65,
-      "total": 121,
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
         "lun. 21": {
           "total": 0,
@@ -89,186 +89,12 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 35,
-      "mathieu": 115,
-      "clara": 50,
-      "total": 200,
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
       "byDay": {
-        "mar. 1": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 2": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 3": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 4": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 5": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 6": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 7": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 8": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 9": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 10": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 11": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 12": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 13": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 14": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 15": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 16": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 17": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 18": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 19": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 20": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 21": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 22": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 23": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 24": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 25": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 26": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 27": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 28": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 29": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 30": {
+        "jeu. 1": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
@@ -277,10 +103,10 @@
       }
     },
     "meetings": {
-      "lilian": 0,
+      "lilian": 3,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0
+      "clara": 2,
+      "total": 5
     },
     "tickets": {
       "lilian": 0,
