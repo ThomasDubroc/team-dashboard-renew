@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T12:22:32.950Z",
+  "generatedAt": "2026-10-21T12:32:17.612Z",
   "periods": {
     "lastWeek": {
       "start": "2026-10-12",
@@ -7,15 +7,15 @@
     },
     "thisMonth": {
       "start": "2026-10-01",
-      "end": "2026-10-20"
+      "end": "2026-10-21"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 0,
+      "lilian": 72,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "clara": 39,
+      "total": 111,
       "byDay": {
         "lun. 12": {
           "total": 0,
@@ -213,20 +213,26 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "mer. 21": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 56,
+      "lilian": 58,
       "mathieu": 0,
-      "clara": 34,
-      "total": 90
+      "clara": 35,
+      "total": 93
     },
     "tickets": {
-      "lilian": 49,
+      "lilian": 53,
       "mathieu": 0,
-      "clara": 53,
-      "total": 102
+      "clara": 67,
+      "total": 120
     },
     "churnReason": {
       "lilian": 0,
