@@ -1,249 +1,22 @@
 {
-  "generatedAt": "2026-10-30T13:41:43.924Z",
+  "generatedAt": "2026-11-02T16:39:56.401Z",
   "periods": {
     "lastWeek": {
-      "start": "2026-10-19",
-      "end": "2026-10-25"
+      "start": "2026-10-26",
+      "end": "2026-11-01"
     },
     "thisMonth": {
-      "start": "2026-10-01",
-      "end": "2026-10-30"
+      "start": "2026-11-01",
+      "end": "2026-11-02"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 1,
+      "lilian": 23,
       "mathieu": 0,
-      "clara": 60,
-      "total": 61,
+      "clara": 39,
+      "total": 62,
       "byDay": {
-        "lun. 19": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 20": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 21": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 22": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 23": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 24": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 25": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        }
-      }
-    },
-    "meetings": {
-      "lilian": 7,
-      "mathieu": 0,
-      "clara": 9,
-      "total": 16
-    },
-    "tickets": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0
-    },
-    "churnReason": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "reasons": []
-    },
-    "churnNoShow": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0
-    }
-  },
-  "thisMonth": {
-    "calls": {
-      "lilian": 0,
-      "mathieu": 0,
-      "clara": 0,
-      "total": 0,
-      "byDay": {
-        "jeu. 1": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 2": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 3": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 4": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 5": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 6": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 7": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 8": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 9": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 10": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 11": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 12": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 13": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 14": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 15": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 16": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 17": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 18": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "lun. 19": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mar. 20": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "mer. 21": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "jeu. 22": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "ven. 23": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "sam. 24": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
-        "dim. 25": {
-          "total": 0,
-          "lilian": 0,
-          "mathieu": 0,
-          "clara": 0
-        },
         "lun. 26": {
           "total": 0,
           "lilian": 0,
@@ -273,20 +46,79 @@
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
+        },
+        "sam. 31": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "dim. 1": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
         }
       }
     },
     "meetings": {
-      "lilian": 66,
+      "lilian": 5,
       "mathieu": 0,
-      "clara": 57,
-      "total": 123
+      "clara": 18,
+      "total": 23
     },
     "tickets": {
-      "lilian": 59,
+      "lilian": 5,
       "mathieu": 0,
-      "clara": 88,
-      "total": 147
+      "clara": 10,
+      "total": 15
+    },
+    "churnReason": {
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
+      "reasons": []
+    },
+    "churnNoShow": {
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
+    }
+  },
+  "thisMonth": {
+    "calls": {
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0,
+      "byDay": {
+        "dim. 1": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "lun. 2": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        }
+      }
+    },
+    "meetings": {
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
+    },
+    "tickets": {
+      "lilian": 0,
+      "mathieu": 0,
+      "clara": 0,
+      "total": 0
     },
     "churnReason": {
       "lilian": 0,
