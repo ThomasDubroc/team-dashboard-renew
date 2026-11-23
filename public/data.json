@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-11-20T15:49:20.795Z",
+  "generatedAt": "2026-11-23T18:50:44.075Z",
   "periods": {
     "lastWeek": {
-      "start": "2026-11-09",
-      "end": "2026-11-15"
+      "start": "2026-11-16",
+      "end": "2026-11-22"
     },
     "thisMonth": {
       "start": "2026-11-01",
-      "end": "2026-11-20"
+      "end": "2026-11-23"
     }
   },
   "lastWeek": {
     "calls": {
-      "lilian": 40,
+      "lilian": 23,
       "mathieu": 0,
-      "clara": 17,
-      "total": 57,
+      "clara": 27,
+      "total": 50,
       "byDay": {
-        "lun. 9": {
+        "lun. 16": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mar. 10": {
+        "mar. 17": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "mer. 11": {
+        "mer. 18": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "jeu. 12": {
+        "jeu. 19": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "ven. 13": {
+        "ven. 20": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "sam. 14": {
+        "sam. 21": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
           "clara": 0
         },
-        "dim. 15": {
+        "dim. 22": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
@@ -62,16 +62,16 @@
       }
     },
     "meetings": {
-      "lilian": 13,
+      "lilian": 17,
       "mathieu": 0,
-      "clara": 11,
-      "total": 24
+      "clara": 13,
+      "total": 30
     },
     "tickets": {
-      "lilian": 18,
+      "lilian": 9,
       "mathieu": 0,
-      "clara": 9,
-      "total": 27
+      "clara": 17,
+      "total": 26
     },
     "churnReason": {
       "lilian": 0,
@@ -89,10 +89,10 @@
   },
   "thisMonth": {
     "calls": {
-      "lilian": 0,
+      "lilian": 101,
       "mathieu": 0,
-      "clara": 0,
-      "total": 0,
+      "clara": 83,
+      "total": 184,
       "byDay": {
         "dim. 1": {
           "total": 0,
@@ -209,6 +209,24 @@
           "clara": 0
         },
         "ven. 20": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "sam. 21": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "dim. 22": {
+          "total": 0,
+          "lilian": 0,
+          "mathieu": 0,
+          "clara": 0
+        },
+        "lun. 23": {
           "total": 0,
           "lilian": 0,
           "mathieu": 0,
